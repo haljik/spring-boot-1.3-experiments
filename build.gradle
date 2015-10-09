@@ -25,8 +25,12 @@ subprojects {
             maven { url "http://repo.spring.io/snapshot" }
             maven { url "http://repo.spring.io/milestone" }
         }
+    	dependencies {
+	        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		}
     }
 
+	apply plugin: 'spring-boot'
     apply plugin: 'java'
     apply plugin: 'groovy'
     apply plugin: 'idea'
