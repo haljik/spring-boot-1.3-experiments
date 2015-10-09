@@ -1,2 +1,2 @@
-# spring-boot-experiments
-Spring Boot の実験プロジェクト置き場
+# spring-boot-experimental
+Spring boot の実験プロジェクト置き場
