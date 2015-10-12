@@ -1,1 +1,3 @@
 rootProject.name = 'spring-boot-experiments'
+
+include ':oauth2-provider'
